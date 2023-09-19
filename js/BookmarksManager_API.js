@@ -1,5 +1,5 @@
 class BookmarksManager_API {
-    static API_URL() { return "http://localhost:5000/api" };
+    static API_URL() { return "https://kbg-tp1-serveur.glitch.me/api" };
     static BOOKMARKS_API_URL() { return this.API_URL() + "/bookmarks" };
     static CATEGORIES_API_URL() { return this.API_URL() + "/categories" };
     static async GetBookmarks(id = null, categoryId = null) {
